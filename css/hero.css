@@ -1,0 +1,18 @@
+header{
+	background-color: #000080;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+header img{
+	border-radius: 150px;
+}
+/*<header>
+			<img src="https://i.pinimg.com/564x/1f/cb/e9/1fcbe93da98e6af2026c95294340e10e.jpg">
+			<h1>Kageyama Tobio</h1>
+		</header>*/
