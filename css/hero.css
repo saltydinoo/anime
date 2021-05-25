@@ -1,3 +1,8 @@
+html,body{
+	font-family: Ariel,sans-serif;
+	margin: 0;
+}
+
 header{
 	background-color: #000080;
 	padding: 40px;
@@ -10,9 +15,49 @@ h1{
 }
 
 header img{
-	border-radius: 150px;
+	border-radius: 160px;
+	border: 20px solid #CC0000;
 }
-/*<header>
-			<img src="https://i.pinimg.com/564x/1f/cb/e9/1fcbe93da98e6af2026c95294340e10e.jpg">
-			<h1>Kageyama Tobio</h1>
-		</header>*/
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style:none ;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	padding: 40px 20px;
+	background-color: #000080;
+	color: white;
+	margin-top: 20px;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
